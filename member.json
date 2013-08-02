@@ -9,6 +9,17 @@
 		"class": 103,
 		"skill": "website development, mostly coding nodejs, javscript.... . Also learned PHP, Perl...",
 		"description": "I like web, and think web is a powerful tool to change the word"
+	},
+	{ 
+		"name": "GaryLai",
+		"email": "garylai1990@gmail.com",
+		"github-id": "github.com/garylai1990",
+		"twitter-id": "twitter.com/garylai1990",
+		"facebook-id": "facebook.com/GaryLai.CH",
+		"department": "IIM",
+		"class": 102,
+		"skill": "Rails, java, js",
+		"description": "Rails Developer"
 	}
 
 ]
