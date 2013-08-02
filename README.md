@@ -11,9 +11,9 @@ EXAMPLE:
     { 
         "name": "chilijung",
         "email": "chilijung@gmail.com",
-        "github-id": "github.com/chilijung",
-        "twitter-id": "twitter.com/chilijung",
-        "facebook-id": "facebook.com/lirong.ji",
+        "github-id": "chilijung",
+        "twitter-id": "chilijung",
+        "facebook-id": "lirong.ji",
         "department": "IIM",
         "class": 103,
         "skill": "website development, mostly coding nodejs, javscript.... . Also learned PHP, Perl...",

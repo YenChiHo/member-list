@@ -1,0 +1,34 @@
+header {
+	width: 800px;
+	height: 50px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 30px;
+	border-bottom: 1px solid #CCC;
+}
+
+section {
+	margin-top: 20px;
+	mragin-bottom: 20px;
+}
+
+#membership {
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.picture {
+	width: 300px;
+	float: left;
+}
+
+.personal_info {
+	width: 350px;
+	float: right;
+}
+
+.personal_clear {
+	clear: both;
+}
