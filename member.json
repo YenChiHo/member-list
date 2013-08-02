@@ -20,6 +20,17 @@
 		"class": 102,
 		"skill": "Rails, java, js",
 		"description": "Rails Developer"
+	},
+	{ 
+		"name": "wwwy3y3",
+		"email": "wwwy3y3@gmail.com",
+		"github-id": "github.com/wwwy3y3",
+		"twitter-id": "twitter.com/wwwy3y3",
+		"facebook-id": "facebook.com/wwwy3y3",
+		"department": "IIM",
+		"class": 103,
+		"skill": "nodeJS, java",
+		"description": "I'm a web developer"
 	}
 
 ]
