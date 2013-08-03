@@ -7,30 +7,39 @@ This repo is for SITW members.
 
 EXAMPLE:
 
-````
-    { 
-        "name": "chilijung",
-        "email": "chilijung@gmail.com",
-        "github-id": "chilijung",
-        "twitter-id": "chilijung",
-        "facebook-id": "lirong.ji",
-        "department": "IIM",
-        "class": 103,
-        "skill": "website development, mostly coding nodejs, javscript.... . Also learned PHP, Perl...",
-        "description": "I like web, and think web is a powerful tool to change the word"
-    }
+```
+{
+  "name": "chilijung",
+  "email": "chilijung@gmail.com",
+  "github-id": "chilijung",
+  "twitter-id": "chilijung",
+  "facebook-id": "lirong.ji",
+  "department": "IIM",
+  "class": 103,
+  "skill": "website development, mostly coding nodejs, javscript.... . Also learned PHP, Perl...",
+  "description": "I like web, and think web is a powerful tool to change the word"
+}
 
 ```
 
 in `member.json`
 
+## Contribute
 
-# Author
+### Set up enviroment:
+`$ npm install`
+`$ node app.js`
+
+### Open browser
+[http://localhost:8080](http://localhost:8080)
+
+## Author
 
 [@chilijung](https://github.com/chilijung)
 
-# Contributers
+## Contributers
 
+[@garylai1990](https://github.com/garylai1990)
 Feel free to add by your own!
 
 # License
