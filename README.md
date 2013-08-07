@@ -48,12 +48,13 @@ for example:
 ## Contribute
 
 ### Set up enviroment:
-`$ npm install`
-`$ node app.js`
+```
+$ npm install
+$ node app.js
+```
 
 ### Open browser
 [http://localhost:8080](http://localhost:8080)
->>>>>>> 93be4e18e911840876b3849600e1ee56b3b50943
 
 ## Author
 
