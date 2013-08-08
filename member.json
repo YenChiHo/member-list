@@ -42,5 +42,16 @@
 		"class": 103,
 		"skill": "java, c++",
 		"description": "A rookie"
+	},
+	{
+  		"name": "Lee-W",
+  		"email": "cl87654321@gmail.com",
+  		"github-id": "Lee-w",
+  		"twitter-id": "",
+  		"facebook-id": "Lee Wei",
+  		"department": "IIM",
+  		"class": 104,
+  		"skill": "C++, maybe a litle python",
+  		"description": "Hope that I can make some contrubution "
 	}
 ]
