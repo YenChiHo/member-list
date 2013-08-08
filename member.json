@@ -54,4 +54,15 @@
   		"skill": "C++, maybe a litle python",
   		"description": "Hope that I can make some contribution "
 	}
+	{
+  		"name": "JackHou",
+  		"email": "vjack070707@gmail.com",
+  		"github-id": "JackHou07",
+  		"twitter-id": "jackhou07",
+  		"facebook-id": "JackHou07",
+  		"department": "IIM",
+  		"class": 103,
+  		"skill": "HTML, CSS, a little little little Rails",
+  		"description": "An awesome project!"
+	}
 ]
