@@ -31,6 +31,17 @@
 		"class": 103,
 		"skill": "nodeJS, java",
 		"description": "I'm a web developer"
+	},
+	{
+		"name": "Ping-Lin",
+		"email": "billy3962@hotmail.com",
+		"github-id": "Ping-Lin",
+		"twitter-id": "",
+		"facebook-id": "Ping",
+		"department": "IIM",
+		"class": 103,
+		"skill": "java, c++",
+		"description": "A rookie"
 	}
 
 ]
