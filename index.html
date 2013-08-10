@@ -1,19 +1,41 @@
-<html><head><link href="./css/index.css" rel="stylesheet" type="text/css"/><link href="http://fonts.googleapis.com/css?family=Kite+One" rel="stylesheet" type="text/css"/><script src="./js/index.js"></script><script src="./js/jquery-1.10.2.min.js"></script></head><body><header> <div class="header-container"><div class="header-left"><img src="./logo/sitw-logo-03.png"/>SITW membership</div><div class="header-right"><div class="choice"></div></div></div></header><main id="membership"></main><footer></footer><script src="./js/zepto.min.js"></script><script src="./js/handlebars.js"></script><script id="entry-template" type="text/x-handlebars-template"><section>
+<html><head><link href="./css/index.css" rel="stylesheet" type="text/css"/><link href="http://fonts.googleapis.com/css?family=Kite+One" rel="stylesheet" type="text/css"/><script src="./js/jquery-1.10.2.min.js"></script></head><body><header> <div class="header-container"><div class="header-left"><img src="./logo/sitw-logo-03.png"/>SITW membership</div><div class="header-right"><div class="choice"></div></div></div></header><main id="membership"></main><footer></footer><script src="./js/zepto.min.js"></script><script src="./js/handlebars.js"></script><script id="entry-template" type="text/x-handlebars-template"><section>
     <div class="picture">
-        <div class='picture-top'>
-            {{name}}
-        </div>
-        <div class='picture-bottom'>
-            <img src="http://avatars.io/facebook/{{facebook-id}}?size=large" width="200">
-        </div>
+        <img src="http://avatars.io/facebook/{{facebook-id}}?size=large" width="200">
     </div>
     
-    
+    <div class="personal_info">
+        <li>
+            name: {{name}}
+        </li>
+        <li>
+            email: {{email}}
+        </li>
+        <li>
+            github-id: {{github-id}}
+        </li>
+        <li>
+            twitter-id: {{twitter-id}}
+        </li>
+        <li>
+            facebook-id: {{facebook-id}}
+        </li>
+        <li>
+            department: {{department}}
+        </li>
+        <li>
+            class: {{class}}
+        </li>
+        <li>
+            skill: {{skill}}
+        </li>
+        <li>
+            description: {{description}}
+        </li>
+    </div>
     <div class="personal_clear">
     </div>
     
-</section>
-</script><script>$(document).ready(function(){
+</section></script><script>$(document).ready(function(){
     $.getJSON('./member.json', function(data){
         console.log(data)
         
@@ -29,18 +51,7 @@
                 
             };
     });
-});
-$(document).ready(function() {
-    $(".picture").on("mouseenter",function(){
-        $(this).css({"width":"1000px","height":"1000px","-webkit-border-radius":"500px","border-radius":"500px"
-        });
-    })
-    .on("mouseleave",function(){
-        $(this).css({"width":"250px","height":"250px","-webkit-border-radius":"125px","border-radius":"125px"
-        });
-    })
-});
-})</script><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+});</script><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');

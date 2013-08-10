@@ -39,7 +39,6 @@ section {
    	-moz-border-radius: 125px; 
    	-webkit-border-radius: 125px; 
    	border-radius: 125px;
-   	background-color: blue;
     transition:width 2s, height 2s;
    	-webkit-transition:width 2s, height 2s, -webkit-transform 2s;
 }
@@ -49,7 +48,7 @@ section {
    	-moz-border-radius: 125px; 
    	-webkit-border-radius: 125px; 
    	border-radius: 125px;
-   	opacity: 0;
+   	opacity: 0.5;
 }
 
 .picture img:hover{

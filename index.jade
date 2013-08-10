@@ -2,7 +2,6 @@ html
     head
         link(href="./css/index.css", rel="stylesheet", type="text/css")
         link(href='http://fonts.googleapis.com/css?family=Kite+One', rel='stylesheet', type='text/css')
-        script(src="./js/index.js")
         script(src="./js/jquery-1.10.2.min.js")
     body
         header 
@@ -23,20 +22,42 @@ html
 
             <section>
                 <div class="picture">
-                    <div class='picture-top'>
-                        {{name}}
-                    </div>
-                    <div class='picture-bottom'>
-                        <img src="http://avatars.io/facebook/{{facebook-id}}?size=large" width="200">
-                    </div>
+                    <img src="http://avatars.io/facebook/{{facebook-id}}?size=large" width="200">
                 </div>
 
-
+                <div class="personal_info">
+                    <li>
+                        name: {{name}}
+                    </li>
+                    <li>
+                        email: {{email}}
+                    </li>
+                    <li>
+                        github-id: {{github-id}}
+                    </li>
+                    <li>
+                        twitter-id: {{twitter-id}}
+                    </li>
+                    <li>
+                        facebook-id: {{facebook-id}}
+                    </li>
+                    <li>
+                        department: {{department}}
+                    </li>
+                    <li>
+                        class: {{class}}
+                    </li>
+                    <li>
+                        skill: {{skill}}
+                    </li>
+                    <li>
+                        description: {{description}}
+                    </li>
+                </div>
                 <div class="personal_clear">
                 </div>
 
             </section>
-
         script.
             $(document).ready(function(){
                 $.getJSON('./member.json', function(data){
@@ -55,17 +76,6 @@ html
                         };
                 });
             });
-            $(document).ready(function() {
-                $(".picture").on("mouseenter",function(){
-                    $(this).css({"width":"1000px","height":"1000px","-webkit-border-radius":"500px","border-radius":"500px"
-                    });
-                })
-                .on("mouseleave",function(){
-                    $(this).css({"width":"250px","height":"250px","-webkit-border-radius":"125px","border-radius":"125px"
-                    });
-                })
-            });
-            })
         script.
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
