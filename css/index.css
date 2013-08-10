@@ -1,34 +1,86 @@
+body{
+	background-image:url(bkg.png);
+	background-repeat: repeat;
+	margin:0 auto;
+	width: 100%;
+}
 header {
-	width: 800px;
-	height: 50px;
+	background-color: white;
+	height: 60px;
+	font-family: 'Kite One', sans-serif;
 	text-align: center;
-	margin-right: auto;
-	margin-left: auto;
+/*	margin-right: auto;
+	margin-left: auto;*/
+	margin:0 auto;
 	font-size: 30px;
-	border-bottom: 1px solid #CCC;
 }
 
 section {
 	margin-top: 20px;
 	mragin-bottom: 20px;
+	display: inline-block;
+}
+/*.picture{
+	display: inline-block;
+}*/
+.picture .picture-top{
+	font-family: 'Kite One', sans-serif;
+	position: relative;
+	top:136px;
+	font-size: 30px;
+	color: white;
+}
+.picture .picture-bottom{
+	margin-top: -44px;
+}
+.picture{
+	width: 250px;
+  	height: 250px;
+   	-moz-border-radius: 125px; 
+   	-webkit-border-radius: 125px; 
+   	border-radius: 125px;
+   	background-color: blue;
+    transition:width 2s, height 2s;
+   	-webkit-transition:width 2s, height 2s, -webkit-transform 2s;
+}
+.picture img{
+   	width: 250px;
+  	height: 250px;
+   	-moz-border-radius: 125px; 
+   	-webkit-border-radius: 125px; 
+   	border-radius: 125px;
+   	opacity: 0;
 }
 
+.picture img:hover{
+	cursor: pointer;
+	opacity: 1;
+}
+.mask-content{
+	width: 250px;
+  	height: 250px;
+  	background-color: red;
+   	-moz-border-radius: 125px; 
+   	-webkit-border-radius: 125px; 
+   	border-radius: 125px;
+   	/*display: inline;*/
+   	z-index: !important;
+}
 #membership {
-	width: 700px;
+	width: 1000px;
+	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.picture {
-	width: 300px;
-	float: left;
-}
 
 .personal_info {
 	width: 350px;
 	float: right;
 }
-
+.personal_info img{
+	width:50px;
+}
 .personal_clear {
 	clear: both;
 }
