@@ -16,6 +16,11 @@ header {
 	-moz-box-shadow:   0 1px 10px 0px #ccc;
 	-webkit-box-shadow:0 1px 10px 0px #ccc;
 	box-shadow:        0 1px 10px 0px #ccc;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
 }
 .header-left{
 	display: inline-block;
@@ -122,7 +127,7 @@ section {
 	width: 1000px;
 	text-align: center;
 	margin-left: auto;
-	margin-top: 25px;
+	margin-top: 70px;
 	margin-right: auto;
 }
 .personal_clear {
