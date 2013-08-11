@@ -2,7 +2,7 @@
 
 $(document).ready(function() {
 	$(".picture").on("mouseenter",function(){
-		$(this).css({"width":"1000px","height":"1000px","-webkit-border-radius":"500px","border-radius":"500px"
+		$(".picture img").css({"width":"1000px","height":"1000px","-webkit-border-radius":"500px","border-radius":"500px"
 		});
 	})
 	.on("mouseleave",function(){
