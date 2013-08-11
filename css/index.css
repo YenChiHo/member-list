@@ -129,8 +129,15 @@ section {
 	margin-left: auto;
 	margin-top: 70px;
 	margin-right: auto;
+	padding-bottom: 100px;
 }
 .personal_clear {
 	clear: both;
+}
+footer{
+	text-align: center;
+	height: 30px;
+	position: relative;
+	margin-top: -30px;
 }
 

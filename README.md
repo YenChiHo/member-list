@@ -14,6 +14,7 @@ EXAMPLE:
   "github-id": "chilijung",
   "twitter-id": "chilijung",
   "facebook-id": "lirong.ji",
+  "school": "NCKU",
   "department": "IIM",
   "class": 103,
   "skill": "website development, mostly coding nodejs, javscript.... . Also learned PHP, Perl...",
@@ -64,6 +65,8 @@ $ node app.js
 
 [@garylai1990](https://github.com/garylai1990)
 Feel free to add by your own!
+
+[@jackhou07](https://github.com/jackhou07)
 
 # License
 
