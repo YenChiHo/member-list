@@ -1,21 +1,50 @@
-<html><head><link href="./css/index.css" rel="stylesheet" type="text/css"/><link href="http://fonts.googleapis.com/css?family=Kite+One" rel="stylesheet" type="text/css"/><script src="./js/jquery-1.10.2.min.js"></script><script src="./js/index.js"></script></head><body><header> <div class="header-container"><div class="header-left"><img src="./logo/sitw-logo-03.png"/>SITW membership</div><div class="header-right"><div class="choice"></div></div></div></header><main id="membership"></main><footer></footer><script src="./js/zepto.min.js"></script><script src="./js/handlebars.js"></script><script id="entry-template" type="text/x-handlebars-template"><section>
+<html><head><link href="./css/index.css" rel="stylesheet" type="text/css"/><link href="http://fonts.googleapis.com/css?family=Kite+One" rel="stylesheet" type="text/css"/><script src="./js/jquery-1.10.2.min.js"></script><script src="./js/index.js"></script><link rel="shortcut icon" type="image/x-icon" href="logo/favicon.ico"/></head><body><header> <div class="header-container"><div class="header-left"><img src="./logo/sitw-logo-03.png"/>SITW membership</div><div class="header-right"><div class="choice"><a href="http://www.sitw.tw" target="_blank">HOME</a></div></div></div></header><main id="membership"></main><footer></footer><script src="./js/zepto.min.js"></script><script src="./js/handlebars.js"></script><script id="entry-template" type="text/x-handlebars-template"><section>
     <div class="info-left">
-        <div class='picture-top'>
+        <div class='name'>
             {{name}}
         </div>
-        <div class='picture-bottom'>
+        <div class='head'>
             <img src="http://avatars.io/facebook/{{facebook-id}}?size=large" width="200">
         </div>
     </div>
-    <div class="info-right">
+    <div class="info-middle">
         <li>
-            Department: {{department}}
+            <div class='word1'>
+                School
+            </div>
+            <div class='word2'>
+                NCKU {{department}} {{class}}
+            </div>
         </li>
         <li>
-            Class: {{class}}
+            <div class='word1'>
+                Skill
+            </div>
+            <div class='word2'>
+                {{skill}}
+            </div>
         </li>
         <li>
-            Skill: {{skill}}
+            <div class='word1'>
+                <span class='word1-1'>Disctiption</span>
+            </div>
+            <div class='word2'>
+                {{description}}
+            </div>
+        </li>
+    </div>
+    <div class='info-right'>
+        <li>
+            <a href="http://www.github.com/{{github-id}}"><img src="img/github.png"></a>
+        </li>          
+        <li>
+            <a href="http://www.facebook.com/{{facebook-id}}"><img src="img/facebook.png"></a>
+        </li>
+        <li>
+            <a href="http://www.twitter.com/{{twitter-id}}"><img src="img/twitter.png"></a> 
+        </li>
+        <li>
+            <a href="mailto:{{email}}"><img src="img/gmail.png"></a>
         </li>
     </div>
     <div class="personal_clear">

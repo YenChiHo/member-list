@@ -9,68 +9,120 @@ header {
 	height: 60px;
 	font-family: 'Kite One', sans-serif;
 	text-align: center;
-/*	margin-right: auto;
-	margin-left: auto;*/
 	margin:0 auto;
+	padding: 0 400px;
 	font-size: 30px;
+	text-align: center;
+	-moz-box-shadow:   0 1px 10px 0px #ccc;
+	-webkit-box-shadow:0 1px 10px 0px #ccc;
+	box-shadow:        0 1px 10px 0px #ccc;
 }
-
+.header-left{
+	display: inline-block;
+	width: 450px;
+	text-align: left;
+}
+.header-right{
+	display: inline-block;
+	text-align: right;
+	font-size: 15px;
+}
+.header-right a{
+	text-decoration: none;
+}
+.header-right a:visited{
+	color:#b6b17e;
+}
+.header-right a:link{
+	color:#b6b17e;
+}
+.header-right a:hover{
+	color:#eadb42;
+}
+.header-right a:active{
+	color:#b6b17e;
+}
 section {
-	margin-top: 20px;
-	mragin-bottom: 20px;
+	width:800px;
+	text-align: center;
+	border-bottom: 5px double black;
 	display: inline-block;
 }
 .info-left{
-	text-align: center;
+	display: inline-block;
+	vertical-align: top;
 	padding-top: 10px;
 	width: 276px;
-  	height: 276px;
-	border: 1px solid black;
+  	height: 223px;
     transition:width 2s, height 2s;
    	-webkit-transition:width 2s, height 2s, -webkit-transform 2s;
 }
-/*.picture{
+.info-middle{
+	padding-top: 10px;
 	display: inline-block;
-}*/
-.info-right{
-	position: relative;
-	top: -272px;
-	height: 276px;
-	width:276px;
+
+	width:400px;
 	text-align: left;
 	font-size: 30px;
-	padding-left: 5px;
-
 
 }
-
-.info li{
+.info-right{
+	vertical-align: top;
+	display: inline-block;
+	width:100px;
 	list-style: none;
 }
-.info-left .picture-top{
+.info-right img{
+	width: 50px;
+}
+.info-left .name{
 	font-family: 'Kite One', sans-serif;
 	position: relative;
-	top:222px;
+	top:169px;
 	font-size: 30px;
 	color: blue;
+	text-align: center;
 }
-.info-left .picture-bottom{
+.info-left .head{
 	margin-top: -36px;
+	text-align: center;
 }
 
 .info-left img{
-   	width: 200px;
-  	height: 200px;
-   	-moz-border-radius: 100px; 
-   	-webkit-border-radius: 100px; 
-   	border-radius: 100px;
+   	width: 150px;
+  	height: 150px;
+   	-moz-border-radius: 75px; 
+   	-webkit-border-radius: 75px; 
+   	border-radius: 75px;
 
 }
+.info-middle{
+	list-style: none;
+	font-family: 'Kite One', sans-serif;
+}
+.info-middle li{
+	margin: 5px 0;
+}
+.word1{
+	font-size: 25px;
+	text-decoration: underline;
+}
+.word2{
+	padding-left: 10px;
 
+}
+.word1-1{
+
+	padding:4px;
+}
+.info-right li{
+	margin:10px 0;
+}
 #membership {
 	width: 1000px;
 	text-align: center;
 	margin-left: auto;
+	margin-top: 25px;
 	margin-right: auto;
 }
 .personal_clear {
