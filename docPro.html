@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="http://bootswatch.com/cosmo/bootstrap.min.css" rel="stylesheet"></link>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/showdown/0.3.1/showdown.min.js"></script>
+
+<script>
+
+// get the url params
+function getURLParameters(paramName) {
+    var sURL = window.document.URL.toString();  
+    if (sURL.indexOf("?") > 0) {
+
+       var arrParams = sURL.split("?");         
+       var arrURLParams = arrParams[1].split("&");      
+       var arrParamNames = new Array(arrURLParams.length);
+       var arrParamValues = new Array(arrURLParams.length);     
+       var i = 0;
+       for (i=0;i<arrURLParams.length;i++) {
+
+	        var sParam =  arrURLParams[i].split("=");
+	        arrParamNames[i] = sParam[0];
+	        if (sParam[1] != "")
+	            arrParamValues[i] = unescape(sParam[1]);
+	        else
+	            arrParamValues[i] = "No Value";
+       }
+
+       for (i=0;i<arrURLParams.length;i++){
+
+       		// find a paramName value and return the value
+            if(arrParamNames[i] == paramName){
+                return arrParamValues[i];
+            }
+       }
+
+       // return no parameter found in the paramName
+       return "No Parameters Found";
+    }
+
+}
+
+
+function getMd (url_query, md_query, callback) {
+	var md_html = '';
+	if(url_query !== "No Value" && md_query !== "No Value") {
+		$.get('http://' + url_query + '/' + md_query + '.md', function(data){
+			    var converter = new Showdown.converter();
+			    md_html = converter.makeHtml(data);
+			    $('html').append(md_html + '<hr>');
+			}
+		);
+	}
+
+	callback();
+}
+
+function getJson (url_query, json_query, callback) {
+	var json_html = '';
+	if(url_query !== "No Value" && json_query !== "No Value") {
+		$.get('http://' + url_query + '/' + json_query + '.json', function(data){
+			    for (var key in data) {
+					if (data.hasOwnProperty(key)) {
+						json_html +='<h4>' + key + ' : ' + data[key] + '</h4><br>';
+					}
+				}
+
+			    $('html').append(json_html + '<hr>');
+			}
+		);
+	}
+
+	callback();
+}
+
+function getTxt (url_query, txt_query, callback) {
+	var txt_html = '';
+	if(url_query !== "No Value" && txt_query !== "No Value") {
+		$.get('http://' + url_query + '/' + txt_query + '.txt', function(data){
+			    $('html').append(data + '<hr>');
+			}
+		);
+	}
+
+	callback();
+}
+
+$(document).ready(function() {
+	var url_query = getURLParameters('url') || window.location.host.toString();
+	var md_query = getURLParameters('md') || 'README';
+	var json_query = getURLParameters('json') || 'sitw';
+	var txt_query = getURLParameters('txt') || 'license';
+
+	getMd(url_query, md_query, function () {
+		getJson(url_query, json_query, function() {
+			getTxt(url_query, txt_query, function() {
+				console.log('done!')
+			})
+		})
+	})
+	
+
+	
+})
+</script>
+</head>
+<body>
+
+</body>
+
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-42906035-1', 'sitw.tw');
+    ga('send', 'pageview');
+
+</script>
+</html>
