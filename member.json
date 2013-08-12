@@ -1,36 +1,16 @@
 [
-	{ 
-		"name": "chilijung",
-		"email": "chilijung@gmail.com",
-		"github-id": "chilijung",
-		"twitter-id": "chilijung",
-		"facebook-id": "lirong.ji",
-		"department": "IIM",
-		"class": 103,
-		"skill": "website development, mostly coding nodejs, javscript....",
-		"description": "I like web, and think web is a powerful tool to change the world"
-	},
-	{ 
-		"name": "GaryLai",
-		"email": "garylai1990@gmail.com",
-		"github-id": "garylai1990",
-		"twitter-id": "garylai1990",
-		"facebook-id": "GaryLai.CH",
-		"department": "IIM",
-		"class": 102,
-		"skill": "Rails, java, js",
-		"description": "Rails Developer"
-	},
-	{ 
-		"name": "wwwy3y3",
-		"email": "wwwy3y3@gmail.com",
-		"github-id": "wwwy3y3",
-		"twitter-id": "wwwy3y3",
-		"facebook-id": "wwwy3y3",
-		"department": "IIM",
-		"class": 103,
-		"skill": "nodeJS, java",
-		"description": "I'm a web developer"
+	{
+  		"name": "JackHou",
+  		"email": "vjack070707@gmail.com",
+  		"github-id": "JackHou07",
+  		"twitter-id": "",
+  		"twitter-id": "jackhou07",
+  		"facebook-id": "JackHou07",
+  		"school": "NCKU",
+  		"department": "IIM",
+  		"class": 103,
+  		"skill": "HTML, CSS, a little little little Rails",
+  		"description": "An awesome project!"
 	},
 	{
 		"name": "Ping-Lin",
@@ -38,6 +18,7 @@
 		"github-id": "Ping-Lin",
 		"twitter-id": "",
 		"facebook-id": "PingPong.Lin",
+		"school": "NCKU",
 		"department": "IIM",
 		"class": 103,
 		"skill": "java, c++",
@@ -49,21 +30,46 @@
   		"github-id": "Lee-w",
   		"twitter-id": "",
   		"facebook-id": "clLeeW",
+  		"school": "NCKU",
   		"department": "IIM",
   		"class": 104,
   		"skill": "C++, maybe a litle python",
   		"description": "Hope that I can make some contribution "
 	},
-	{
-  		"name": "JackHou",
-  		"email": "vjack070707@gmail.com",
-  		"github-id": "JackHou07",
-  		"twitter-id": "",
-  		"twitter-id": "jackhou07",
-  		"facebook-id": "JackHou07",
-  		"department": "IIM",
-  		"class": 103,
-  		"skill": "HTML, CSS, a little little little Rails",
-  		"description": "An awesome project!"
+	{ 
+		"name": "wwwy3y3",
+		"email": "wwwy3y3@gmail.com",
+		"github-id": "wwwy3y3",
+		"twitter-id": "wwwy3y3",
+		"facebook-id": "wwwy3y3",
+		"school": "NCKU",
+		"department": "IIM",
+		"class": 103,
+		"skill": "nodeJS, java",
+		"description": "I'm a web developer"
+	},	
+	{ 
+		"name": "GaryLai",
+		"email": "garylai1990@gmail.com",
+		"github-id": "garylai1990",
+		"twitter-id": "garylai1990",
+		"facebook-id": "GaryLai.CH",
+		"school": "NCKU",
+		"department": "IIM",
+		"class": 102,
+		"skill": "Rails, java, js",
+		"description": "Rails Developer"
+	},
+	{ 
+		"name": "chilijung",
+		"email": "chilijung@gmail.com",
+		"github-id": "chilijung",
+		"twitter-id": "chilijung",
+		"facebook-id": "lirong.ji",
+		"school": "NCKU",
+		"department": "IIM",
+		"class": 103,
+		"skill": "website development, mostly coding nodejs, javascript....",
+		"description": "I like web, and think web is a powerful tool to change the world"
 	}
 ]
