@@ -5,14 +5,13 @@ body{
 	width: 100%;
 }
 header {
+	text-align: center;
 	background-color: white;
 	height: 60px;
-	font-family: 'Kite One', sans-serif;
-	text-align: center;
+	font-family: 'Alegreya SC', serif;
 	margin:0 auto;
 	padding: 0 400px;
-	font-size: 30px;
-	text-align: center;
+	font-size: 50px;
 	-moz-box-shadow:   0 1px 10px 0px #ccc;
 	-webkit-box-shadow:0 1px 10px 0px #ccc;
 	box-shadow:        0 1px 10px 0px #ccc;
@@ -21,6 +20,10 @@ header {
 	left: 0;
 	right: 0;
 	z-index: 1;
+}
+.mem{
+	font-family:  'Kite One', sans-serif;
+	font-size: 20px;
 }
 .header-left{
 	display: inline-block;
@@ -135,9 +138,6 @@ section {
 	clear: both;
 }
 footer{
-	text-align: center;
-	height: 30px;
-	position: relative;
-	margin-top: -30px;
+
 }
 
