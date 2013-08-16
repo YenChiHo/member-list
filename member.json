@@ -1,5 +1,18 @@
 [
 	{
+  		"name": "Ben",
+  		"email": "bendio.public@gmail.com",
+  		"github-id": "bendio",
+  		"twitter-id": "",
+  		"twitter-id": "",
+  		"facebook-id": "",
+  		"school": "NCKU",
+  		"department": "IIM",
+  		"class": 103,
+  		"skill": "HTML, CSS, java",
+  		"description": "Hi, I love programming."
+	},
+	{
   		"name": "JackHou",
   		"email": "vjack070707@gmail.com",
   		"github-id": "JackHou07",
