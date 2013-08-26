@@ -1,5 +1,17 @@
 [
 	{
+  		"name": "Wemy Ju",
+  		"email": "WemyJu@gmail.com",
+  		"github-id": "cjo42222",
+		"twitter-id": "",
+		"facebook-id": "WemyJu",
+  		"school": "NCKU",
+		"department": "IIM",
+		"class": 105,
+		"skill": "C++",
+  		"description": "Still a novice, but really love here!!! :D"
+	},
+	{
   		"name": "Ben",
   		"email": "bendio.public@gmail.com",
   		"github-id": "bendio",
