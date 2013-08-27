@@ -1,5 +1,17 @@
 [
 	{
+   		"name": "Arvin Huang",
+   		"email": "arvin0731@gmail.com",
+   		"github-id": "ArvinH",
+   		"twitter-id": "ArvinHv",
+   		"facebook-id": "shouhan.huang",
+   		"school": "NCKU",
+   		"department": "CSIE",
+   		"class": 101,
+   		"skill": "Java, Python, Javascript",
+   		"description": "find me on about.me/ArvinH"
+	},
+	{
   		"name": "Wemy Ju",
   		"email": "WemyJu@gmail.com",
   		"github-id": "WemyJu",
