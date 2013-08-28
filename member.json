@@ -1,5 +1,17 @@
 [
 	{
+		"name": "Tan",
+		"email": "vr2006ccc@gmail.com",
+		"github-id": "tancc",
+		"facebook-id": "",
+		"twitter-id": "",
+		"school": "NCKU",
+		"department": "IIM",
+		"class": 102,
+		"skill": "Python",
+		"description": "Hey!"
+	},
+	{
    		"name": "Arvin Huang",
    		"email": "arvin0731@gmail.com",
    		"github-id": "ArvinH",
