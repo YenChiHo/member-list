@@ -1,4 +1,16 @@
 [
+	{ 
+		"name": "Yen-Chi Ho Michael",
+		"email": "yenchiho@gmail.com",
+		"github-id": "YenChiHo",
+		"twitter-id": "YenChiHo",
+		"facebook-id": "yenchi.ho",
+		"school": "NCKU",
+		"department": "IIM",
+		"class": 102,
+		"skill": "HTML, CSS, JQuery(And a little Javascript), PHP (Especially CodeIgniter), Java and some C++",
+		"description": "Rails Developer"
+	},
 	{
 		"name": "Tan",
 		"email": "vr2006ccc@gmail.com",
